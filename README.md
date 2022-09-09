@@ -6,7 +6,7 @@
 of a task can change during its execution, and the processing of any task is interrupted by a request for any higher priority task.
 
 ## Read a thesis and implement the required changes
-1. Download the following thesis: "[Implementation and Test of EDF and LLREFSchedulers in FreeRTOS]"(https://thesis.unipd.it/bitstream/20.500.12608/25547/1/Implementation_and_Test_of_EDF_and_LLREF_Scgheduler_in_FreeRTOS.pdf).
+1. Download the following thesis: [Implementation and Test of EDF and LLREFSchedulers in FreeRTOS](https://thesis.unipd.it/bitstream/20.500.12608/25547/1/Implementation_and_Test_of_EDF_and_LLREF_Scgheduler_in_FreeRTOS.pdf).
 2. Read chapter 2 : "FreeRTOS Task Scheduling". This is an important chapter to build a profound base before starting the project.
 3. Read chapter 3 : "EDF Scheduler". This chapter is the main chapter you will use to implement the EDF scheduler using FreeRTOS.
 4. Watch the final project explanation video to further understand the thesis and the FreeRTOS dependencies.
