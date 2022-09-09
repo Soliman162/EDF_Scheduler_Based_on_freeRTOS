@@ -25,20 +25,14 @@ of a task can change during its execution, and the processing of any task is int
 
 ## Implement 4 tasks using EDF scheduler
 1. Create 4 tasks with the following criteria:
-
-Task 1: `Button_1_Monitor`, {Periodicity: 50, Deadline: 50}
-This task will monitor rising and falling edge on button 1 and send this event to the consumer task. 
+- Task 1: `Button_1_Monitor`, {Periodicity: 50, Deadline: 50} This task will monitor rising and falling edge on button 1 and send this event to the consumer task. 
+* Note: The rising and failling edges are treated as separate events, hence they have separate strings
+- Task 2: `Button_2_Monitor`, {Periodicity: 50, Deadline: 50} This task will monitor rising and falling edge on button 2 and send this event to the consumer task. 
 *Note: The rising and failling edges are treated as separate events, hence they have separate strings
 
-Task 2: `Button_2_Monitor`, {Periodicity: 50, Deadline: 50}
-This task will monitor rising and falling edge on button 2 and send this event to the consumer task. 
-*Note: The rising and failling edges are treated as separate events, hence they have separate strings
+- Task 3: `Periodic_Transmitter`, {Periodicity: 100, Deadline: 100} This task will send preiodic string every 100ms to the consumer task
 
-Task 3: `Periodic_Transmitter`, {Periodicity: 100, Deadline: 100}
-This task will send preiodic string every 100ms to the consumer task
-
-Task 4: `Uart_Receiver`, {Periodicity: 20, Deadline: 20}
-This is the consumer task which will write on UART any received string from other tasks
+- Task 4: `Uart_Receiver`, {Periodicity: 20, Deadline: 20} This is the consumer task which will write on UART any received string from other tasks
 
 2. Add a 5th and 6th task to simulate a heavier load:
 
