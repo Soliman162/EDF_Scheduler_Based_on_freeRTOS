@@ -25,9 +25,9 @@ of a task can change during its execution, and the processing of any task is int
 ## Implement 4 tasks using EDF scheduler
 1. Create 4 tasks with the following criteria:
 - Task 1: `Button_1_Monitor`, {Periodicity: 50, Deadline: 50} This task will monitor rising and falling edge on button 1 and send this event to the consumer task. 
-* Note: The rising and failling edges are treated as separate events, hence they have separate strings
+> Note: The rising and failling edges are treated as separate events, hence they have separate strings
 - Task 2: `Button_2_Monitor`, {Periodicity: 50, Deadline: 50} This task will monitor rising and falling edge on button 2 and send this event to the consumer task. 
-*Note: The rising and failling edges are treated as separate events, hence they have separate strings
+> Note: The rising and failling edges are treated as separate events, hence they have separate strings
 
 - Task 3: `Periodic_Transmitter`, {Periodicity: 100, Deadline: 100} This task will send preiodic string every 100ms to the consumer task
 
@@ -42,6 +42,4 @@ of a task can change during its execution, and the processing of any task is int
 
 - Using Simso offline simulator, simulate the given set of tasks assuming: Fixed priority rate monotonic scheduler 
 
-- Using Keil simulator in run-time and the given set of tasks:
-
-* Calculate the CPU usage time using timer 1 and trace macros Using trace macros and GPIOs, plot the execution of all tasks, tick, and the idle task on the logic analyzer
+- Using Keil simulator in run-time and the given set of tasks: Calculate the CPU usage time using timer 1 and trace macros Using trace macros and GPIOs, plot the execution of all tasks, tick, and the idle task on the logic analyzer
