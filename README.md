@@ -9,8 +9,7 @@ of a task can change during its execution, and the processing of any task is int
 1. Download the following thesis: [Implementation and Test of EDF and LLREFSchedulers in FreeRTOS](https://thesis.unipd.it/bitstream/20.500.12608/25547/1/Implementation_and_Test_of_EDF_and_LLREF_Scgheduler_in_FreeRTOS.pdf).
 2. Read chapter 2 : "FreeRTOS Task Scheduling". This is an important chapter to build a profound base before starting the project.
 3. Read chapter 3 : "EDF Scheduler". This chapter is the main chapter you will use to implement the EDF scheduler using FreeRTOS.
-4. Watch the final project explanation video to further understand the thesis and the FreeRTOS dependencies.
-5. Implement the changes mentioned in chapter 3.2.2 : "Implementation in FreeRTOS". The changes will be implemented in tasks.c source file only.
+4. Implement the changes mentioned in chapter 3.2.2 : "Implementation in FreeRTOS". The changes will be implemented in tasks.c source file only.
 
 ## Implement the missing changes from the thesis
 1. In the `prvIdleTask` function:
