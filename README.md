@@ -36,7 +36,7 @@ of a task can change during its execution, and the processing of any task is int
 
 - Task 5: `Load_1_Simulation`, {Periodicity: 10, Deadline: 10}, Execution time: 5ms
 - Task 6: `Load_2_Simulation`, {Periodicity: 100, Deadline: 100}, Execution time: 12ms
-> Note: These two tasks shall be implemented as en empty loop that loops X times. 
+> Note: These two tasks shall be implemented as en empty loop that loops X times to achieve the required execution time mentioned above. 
 
 ## Verifying the system implementation
 
